@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_margin="8dp">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/season_image"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/by_day"
+        android:scaleType="fitXY" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/season_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/season_image"
+
+        android:padding="4dp"
+        android:text="skksndksndksndks"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/linears"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/season_name"
+        android:layout_toEndOf="@id/season_image"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/season_year"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="2016"
+            android:textColor="#b1afaf"
+            android:textSize="16sp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/season_episodes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="2016"
+            android:textColor="#b1afaf"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/season_overview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linears"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@+id/season_image"
+        android:padding="4dp"
+        android:textColor="#b1afaf"
+        android:textSize="16sp" />
+</RelativeLayout>

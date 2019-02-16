@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/search_movie_poster"
+        android:layout_width="90dp"
+        android:layout_height="90dp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/search_movie_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_toEndOf="@+id/search_movie_poster"
+        android:padding="4dp"
+        android:textColor="#FFF"
+        android:textSize="16sp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/search_movie_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_movie_title"
+        android:layout_marginStart="4dp"
+        android:layout_toEndOf="@+id/search_movie_poster"
+        android:padding="4dp"
+        android:textColor="#a9a8a8"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>

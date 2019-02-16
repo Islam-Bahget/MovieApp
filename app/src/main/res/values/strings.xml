@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="movie">movie</string>
+    <string name="movies">Movies</string>
+    <string name="cast">Cast</string>
+    <string name="refresh">Refresh</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="up_coming">Up Coming</string>
+    <string name="popular">Popular</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="tv_show">Tv Show</string>
+    <string name="trending">Trending</string>
+    <string name="watch_list">Watch List</string>
+    <string name="open_drawer">open_drawer</string>
+    <string name="close_drawer">close_drawer</string>
+    <string name="by_day">by day</string>
+    <string name="by_week">by week</string>
+    <string name="clear">Clear</string>
+    <string name="show_overview">Show OverView</string>
+    <string name="hide_overview">Hide OverView</string>
+    <string name="add_all">Add All</string>
+</resources>
